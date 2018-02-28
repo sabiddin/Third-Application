@@ -10,7 +10,7 @@ namespace Third_Application
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Aap hai na mujhe bilkul hi pasand nahin aaye, bahut koshis ki");
+            Console.WriteLine("Nothing here");
             Console.Read();
         }
     }
