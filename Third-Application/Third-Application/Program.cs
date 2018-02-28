@@ -10,8 +10,9 @@ namespace Third_Application
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Nothing here");
+            Console.WriteLine(GetSecretMessage());
             Console.Read();
         }
+        static string GetSecretMessage()=> "Hello";        
     }
 }
