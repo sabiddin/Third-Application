@@ -10,9 +10,10 @@ namespace Third_Application
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(GetSecretMessage());
+            Console.WriteLine(GetSecretMessage() + " "+GetSecretMessageFor());
             Console.Read();
         }
-        static string GetSecretMessage()=> "Hello";        
+        static string GetSecretMessage()=> "Hello";
+        static string GetSecretMessageFor() => "Syed";
     }
 }
