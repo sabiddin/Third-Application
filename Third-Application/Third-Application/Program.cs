@@ -11,7 +11,7 @@ namespace Third_Application
         static void Main(string[] args)
         {
             Console.WriteLine(GetSecretMessage() + " "+GetSecretMessageFor());            
-            Console.WriteLine("How are you?");
+            Console.WriteLine("How are you? " +GetSecretMessageFor());
             Console.Read();
         }
         static string GetSecretMessage()=> "Hello";
