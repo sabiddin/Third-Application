@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [abid]
+    WITH PASSWORD = N'gs7bnIrN{TjHpvs|&+aaFpoemsFT7_&#$!~<axwBMnwlvxcy', SID = 0xC4183031A1374D499046F933AFA2876B, DEFAULT_LANGUAGE = [us_english], CHECK_EXPIRATION = ON;
+
